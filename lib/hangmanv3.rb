@@ -104,7 +104,7 @@ class Hangman
 
   def play_game()
     until @guesses == 10 || @won
-          puts "word: #{@word}"
+          #puts "word: #{@word}"
           puts "board: #{@board}"
           puts "guesses: #{@guesses}"
           puts "extra: #{@extra}"
